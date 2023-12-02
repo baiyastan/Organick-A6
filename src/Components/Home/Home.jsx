@@ -1,8 +1,11 @@
 import React from 'react'
+import Section from './Section/Section'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Section />
+    </div>
   )
 }
 
