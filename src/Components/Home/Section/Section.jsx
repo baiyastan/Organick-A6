@@ -6,7 +6,7 @@ const Section = () => {
     <div className='section'>
       <img style={{width: "100%"}} src={Section_img}/>
       <div className='position_img'>
-        <img src=""/>
+        <img src=""  alt='image'/>
       </div>
     </div>
   )
