@@ -2,7 +2,7 @@ import React from 'react'
 import "./Hero.css"
 import Section_img from "../../assets/img/Section_img.png"
 import Position_img from "../../assets/img/Position_img.png"
-import Button from "../../assets/svg/button.svg"
+import Button from "../Buttons/Button"
 
 function Hero() {
   return (
@@ -16,7 +16,7 @@ function Hero() {
           <h2>100% Natural Food</h2>
           <h3>Choose the best healthier way of life</h3>
         </div>
-        <button>Explore Now <img src={Button}/> </button>
+        <Button />
       </div>
     </div>
   )

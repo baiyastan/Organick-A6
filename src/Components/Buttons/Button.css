@@ -1,0 +1,22 @@
+.position_title button {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #efd372;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  transition: all 0.4s ease-in;
+}
+.position_title button:hover {
+  cursor: pointer;
+  background-color: #274C5B;
+  color: #fff;
+} 
