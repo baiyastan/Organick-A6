@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Yellowtail&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.section2 {
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 145px;
+}
+.section_img {
+  position: relative;
+}
+.section_position {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.section_position h2 {
+  color: #FFF;
+  font-family: Yellowtail;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section_position p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.section_title {
+  position: relative;
+}
+.section_text {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.section_text h2 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section_text p {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
