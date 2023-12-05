@@ -1,10 +1,12 @@
 import "./App.css";
-import HomePage from "./pages/Home/HomePage";
+import AbountImage from "./assets/image/Photo.png";
 
 function App() {
-  return <div className="App">
-      <HomePage />
-  </div>;
+  return (
+    <div className="App">
+      <img src={AbountImage} alt="image" />
+    </div>
+  );
 }
 
 export default App;
