@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Product.css"
+import Banner from "./Image/Banner (2).png"
 import AbountImage from "./Image/Photo__42_-removebg-preview.png";
 import Star__1_ from "./Image/Star__1_-removebg-preview.png";
 import AbountImage1 from "./Image/Photo__43_-removebg-preview.png";
@@ -9,20 +10,20 @@ import AbountImage4 from "./Image/image_14__1_-removebg-preview.png";
 import AbountImage5 from "./Image/Photo__45_-removebg-preview.png";
 import AbountImage6 from "./Image/Photo__46_-removebg-preview.png";
 import AbountImage7 from "./Image/Photo__47_-removebg-preview.png";
-import Aerrow from "./Image/Aerrow__1_-removebg-preview.png"
-import Null from "./Image/Photo (49).png"
-import Nulla from "./Image/Photo (50).png"
-import AboutImage from "./Image/Photo (28).jpg"
-import Navigation from "./Image/Navigation.png"
+import AbountImage8 from "./Image/Photo__51_-removebg-preview.png"
+import AbountImage9 from "./Image/Photo__52_-removebg-preview.png"
+import AbountImage10 from "./Image/Photo__53_-removebg-preview.png"
+import AbountImage11 from "./Image/Photo__54_-removebg-preview.png"
 
-function Product() {
+
+
+function Shop() {
   return (
-    <div className="App">
-      <div className="main">
-       <p>Categories </p>
-      <h2>Our Products</h2>
+    <div>
+      <div className='Banner'>
+        <img src={Banner} alt="image" />
       </div>
-          
+
       <div className="Product">
       <div className="vegetable">
       <button>Vegetable</button>
@@ -127,59 +128,64 @@ function Product() {
     </div>
 </div>
 
-   <div className="load">
-    <div className="More">
-      <button>Load More
-      <img src={Aerrow} alt="image"/></button>
+
+
+
+
+<div className="Producs">
+      <div className="vegetable">
+      <button>Health</button>
+      <img src={AbountImage7} alt="image" />
+      <h4>Mung Bean</h4>
+     <h5></h5>
+     <div className="back">
+      <p className="broccoli ">$20.00</p>
+      <p className="nall">$11.00</p>
+      <img src={Star__1_} alt="image"/>
+      </div>
     </div>
-   </div>
 
-   <div className="container">
-    <div className="ralls">
-      <img src={Null} alt="image"/>
-      <img src={Nulla} alt="image"/>
- </div>
-  <div className="news">
-    <div className="Customer">
-        <p className="Test">Testimonial</p>
-        <h2 className="rander">What Our Customer Saying?</h2>
-        <img className="lession" src={AboutImage} alt="image"/>
-        <div className="Lorem">
-        <img src={Star__1_} alt="image"/>
-           <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy <br/> text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-           <h4>Sara Taylor</h4>
-           <p>Consumer</p>
-           <img className="Navigat" src={Navigation} alt="image"/>
-     </div>
+    <div className="vegetable">
+    <button>Nuts</button>
+      <img src={AbountImage9} alt="image" />
+      <h4>White Hazelnut </h4>
+     <h5></h5>
+     <div className="back">
+      <p className="broccoli ">$20.00</p>
+      <p className="nall">$12.00</p>
+      <img src={Star__1_} alt="image"/>
+      </div>
     </div>
-  </div>
-  <div className="Ipsun"></div>
-    <div className="Simply">
-     <div className="dummy">
-      <h1>100%</h1>
-      <p>Organic</p>
-     </div>
 
-     <div className="dummy">
-      <h1>285</h1>
-      <p>Active Product</p>
-     </div>
 
-     <div className="dummy">
-      <h1>350+</h1>
-      <p>Organic Orchads</p>
-     </div>
+    <div className="vegetable">
+      <button>Fresh</button>
+      <img className="image" src={AbountImage10} alt="image" />
+      <h4>Fresh Corn</h4>
+     <h5></h5>
+     <div className="back">
+      <p className="broccoli ">$20.00</p>
+      <p className="nall">$17.00</p>
+      <img src={Star__1_} alt="image"/>
+      </div>
+    </div>
 
-    <div className="dummy">
-      <h1>25+</h1>
-      <p>Years of Farming</p>
-     </div>
-
-     </div>
-   </div>
-
+    <div className="vegetable">
+      <button>Fresh</button>
+      <img className="imagee" src={AbountImage11} alt="image" />
+      <h4>Organic Almonds</h4>
+     <h5></h5>
+     <div className="back">
+      <p className="broccoli ">$20.00</p>
+      <p className="nall">$15.00</p>
+      <img src={Star__1_} alt="image"/>
+      </div>
+    </div>
+</div>
+         
+         
     </div>
   )
 }
 
-export default Product
+export default Shop
