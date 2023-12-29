@@ -1,0 +1,77 @@
+.header {
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+}
+.header-container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+}
+.logo h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.header-container nav {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.header-container nav {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.search-cart-shop {
+	display: flex;
+	border: 1px solid black;
+	align-items: center;
+}
+.search {
+	display: flex;
+	width: 210px;
+	height: 40px;
+	flex-shrink: 0;
+	border-radius: 36px;
+	background-color: #fafafa;
+}
+.search input {
+	width: 80%;
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	background-color: #fafafa;
+	padding: 0 10px;
+}
+.search input:focus {
+	border: 2px solid gray;
+}
+.search-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #7eb693;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  
+}

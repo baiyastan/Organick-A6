@@ -1,15 +1,23 @@
-import { Component } from "react";
-import "./App.css";
-
-
-
+import { Component } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import './App.css'
+import Layout from './Components/Layout/Layout'
+import About from './pages/About'
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
 
 function App() {
-  return (
-    <div className="App">
-    
-    </div>
-  );
+	return (
+		<div>
+			<Routes>
+				<Route path='/' element={<Layout />}>
+					<Route path='/' element={<Home />} />
+					<Route path='/about' element={<About />} />
+          <Route path='*' element={<NotFound />}/>
+				</Route>
+			</Routes>
+		</div>
+	)
 }
 
-export default App;
+export default App
