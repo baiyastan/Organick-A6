@@ -32,9 +32,7 @@ function Header() {
 							<img src={cartSvg} alt='cart icon' />
 						</div>
 						<div className='cart-num'>
-							<p>
-								Cart <span>0</span>
-							</p>
+							<p>Cart <span>0</span></p>
 						</div>
 					</div>
 				</div>

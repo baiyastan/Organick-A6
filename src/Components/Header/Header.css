@@ -41,6 +41,7 @@
 	display: flex;
 	border: 1px solid black;
 	align-items: center;
+	gap: 10px;
 }
 .search {
 	display: flex;
@@ -71,7 +72,9 @@
 	justify-content: center;
 }
 .cart {
-  display: flex;
-  align-items: center;
-  
+	display: flex;
+	align-items: center;
+	width: 120px;
+	height: 40px;
+	border: 1px solid black;
 }
