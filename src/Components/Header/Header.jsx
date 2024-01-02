@@ -14,11 +14,27 @@ function Header() {
 					<h2>Organick</h2>
 				</div>
 				<nav>
-					<Link style={{textDecoration: "none", color: "#274C5B"}} to='/'>Home</Link>
-					<Link style={{textDecoration: "none", color: "#274C5B"}} to='/about'>About</Link>
-					<Link style={{textDecoration: "none", color: "#274C5B"}} to='/shop'>Shop</Link>
-					<Link style={{textDecoration: "none", color: "#274C5B"}} to='/projects'>Projects</Link>
-					<Link style={{textDecoration: "none", color: "#274C5B"}} to='/news'>News</Link>
+					<Link style={{ textDecoration: 'none', color: '#274C5B' }} to='/'>
+						Home
+					</Link>
+					<Link
+						style={{ textDecoration: 'none', color: '#274C5B' }}
+						to='/about'
+					>
+						About
+					</Link>
+					<Link style={{ textDecoration: 'none', color: '#274C5B' }} to='/shop'>
+						Shop
+					</Link>
+					<Link
+						style={{ textDecoration: 'none', color: '#274C5B' }}
+						to='/projects'
+					>
+						Projects
+					</Link>
+					<Link style={{ textDecoration: 'none', color: '#274C5B' }} to='/news'>
+						News
+					</Link>
 				</nav>
 				<div className='search-cart-shop'>
 					<div className='search'>
@@ -32,7 +48,9 @@ function Header() {
 							<img src={cartSvg} alt='cart icon' />
 						</div>
 						<div className='cart-num'>
-							<p>Cart <span>0</span></p>
+							<p>
+								Cart <span>(0)</span>
+							</p>
 						</div>
 					</div>
 				</div>

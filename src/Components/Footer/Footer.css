@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo:wght@300;500;800&family=Open+Sans:ital,wght@0,700;1,700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo:wght@300;500;800&family=Open+Sans:ital,wght@0,700;1,700&display=swap');
 .wrapper {
 	width: 1440px;
 	margin: auto;
@@ -61,14 +61,17 @@
 	gap: 23px;
 }
 .footer_image {
+	display: flex;
+	align-items: center;
+}
+.footer_image h1 {
 	color: #274c5b;
 	font-family: Roboto;
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	display: flex;
-	align-items: center;
+	margin-left: 9px;
 }
 .footer_like {
 	color: #525c60;
