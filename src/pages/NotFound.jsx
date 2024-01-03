@@ -2,7 +2,6 @@ import React from 'react'
 import '../Components/Header/Header.css'
 import foundImage from '../assets/img/found.png'
 import foundPosition from '../assets/img/found-grey.png'
-import foundIcon from "../assets/svg/button.svg"
 import found from "../assets/svg/found.svg"
 
 function NotFound() {
@@ -21,7 +20,7 @@ function NotFound() {
 					<p>The page you are looking for doesn't exist or has been moved</p>
 				</div>
 				<div className='found-button'>
-					<button>Go to Homepage <img src={foundIcon} alt='found icon'/></button>
+					<button className='found-btn'>Go to Homepage</button>
 				</div>
 			</div>
 		</div>

@@ -111,7 +111,6 @@
 	position: absolute;
 	top: 120px;
 	right: 100px;
-	border: 1px solid black;
 }
 .found-title .found-text h2 {
 	color: #274c5b;
@@ -134,5 +133,11 @@
 .found-button {
 	width: 300px;
 	height: auto;
-	border: 1px solid black;
+}
+.found-btn {
+	display: flex;
+	padding: 28px 49px 28px 46px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
