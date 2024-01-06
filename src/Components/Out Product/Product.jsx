@@ -13,6 +13,7 @@ import Null from '../../assets/img/image.png'
 import Nulla from '../../assets/img/image(1).png'
 import womanImage from '../../assets/img/woman.jpg'
 import Navigation from '../../assets/img/Navigation.png'
+import buttonSvg from "../../assets/svg/button.svg"
 
 function Product() {
 	return (
@@ -162,8 +163,8 @@ function Product() {
 			</div>
 
 			<div className='load'>
-				<div className='More'>
-					<button>Load More</button>
+				<div className='more'>
+					<button>Load More <img src={buttonSvg} alt='button image'/></button>
 				</div>
 			</div>
 

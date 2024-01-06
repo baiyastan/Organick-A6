@@ -1,0 +1,35 @@
+.gallery-container {
+	width: 1440px;
+	height: 700px;
+	margin: 0 auto;
+	background-color: #f1f8f4;
+	display: flex;
+	align-items: center;
+	gap: 45px;
+}
+.gallery-content {
+	position: relative;
+}
+.gallery-text {
+	width: 450px;
+	height: 450px;
+}
+.gallery-text img {
+	width: 100%;
+}
+.text-position {
+	padding: 15px 55px 15px 55px;
+	background-color: #fff;
+	border-radius: 20px;
+	position: absolute;
+	top: 190px;
+	left: 100px;
+}
+.text-position h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
