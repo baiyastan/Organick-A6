@@ -1,10 +1,12 @@
 import React from 'react'
-import Product from '../Components/Out Product/Product'
+import ShopCom from "../Components/Out Product/Shop"
+import NewLetter from "../Components/NewLetter/index"
 
 function Shop() {
 	return (
 		<div>
-			<Product />
+			<ShopCom />
+			<NewLetter />
 		</div>
 	)
 }

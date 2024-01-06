@@ -3,14 +3,17 @@ import Hero from '../Hero/Hero'
 import Section2 from '../Section2/Section2'
 import AboutUs from '../AboutUs/AboutUs'
 import Product from '../Out Product/Product'
+import NewLetter from "../NewLetter/index"
+import "./HomeCome.css"
 
 function HomeCom() {
 	return (
-		<div>
+		<div className='homeCom'>
 			<Hero />
 			<Section2 />
 			<AboutUs />
 			<Product />
+			<NewLetter />
 		</div>
 	)
 }

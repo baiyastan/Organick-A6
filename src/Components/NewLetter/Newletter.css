@@ -1,0 +1,49 @@
+.content-input {
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 200px;
+	position: relative;
+}
+.content-input img {
+	width: 100%;
+	border-radius: 30px;
+}
+.input-title {
+	position: absolute;
+	top: 77px;
+	left: 50px;
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.input-title-text h2 {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.input-title-btns {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.input-title-btns input {
+	width: 300px;
+	height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+.input-title-btns input::placeholder {
+	color: #ababab;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+}
