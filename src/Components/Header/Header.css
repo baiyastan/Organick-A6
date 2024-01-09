@@ -1,0 +1,143 @@
+.header {
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+}
+.header-container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+}
+.logo h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.header-container nav {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.header-container nav {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.search-cart-shop {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.search {
+	display: flex;
+	width: 210px;
+	height: 40px;
+	flex-shrink: 0;
+	border-radius: 36px;
+	background-color: #fafafa;
+}
+.search input {
+	width: 80%;
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	background-color: #fafafa;
+	padding: 0 10px;
+}
+.search input:focus {
+	border: 2px solid gray;
+}
+.search-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #7eb693;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cart {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	width: 120px;
+	height: 43px;
+	border-radius: 33px;
+	border: 1px solid #e0e0e0;
+	justify-content: center;
+}
+.cart-icon {
+	width: 40px;
+	height: 40px;
+	background-color: #274c5b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+}
+.found {
+	width: 1440px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.found img {
+	width: 100%;
+}
+.found-position {
+	position: absolute;
+	top: 0;
+}
+.found-title {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: flex-start;
+	position: absolute;
+	top: 120px;
+	right: 100px;
+}
+.found-title .found-text h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	text-align: center;
+}
+.found-title-text p {
+	color: #525c60;
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 165.4%;
+	text-align: center;
+}
+.found-button {
+	width: 300px;
+	height: auto;
+}
+.found-btn {
+	display: flex;
+	padding: 28px 49px 28px 46px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}

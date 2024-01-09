@@ -22,7 +22,7 @@ function Footer() {
         <div className='footer_fox'>
         </div>
         <div className='footer_center'>
-          <div className='footer_image'><img src={assetsFly} alt="image" />Organick</div>
+          <div className='footer_image'><img src={assetsFly} alt="image" /><h1>Organick</h1></div>
           <div className='footer_like'>Simply dummy text of the printing and typesetting industry.
                                        Lorem Ipsum simply dummy text of the printing 
           </div>
