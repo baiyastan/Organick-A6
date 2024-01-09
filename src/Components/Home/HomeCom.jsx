@@ -5,7 +5,8 @@ import AboutUs from '../AboutUs/AboutUs'
 import Product from '../Out Product/Product'
 import Offer from '../Offer/index'
 import Garden from "../Garden"
-import Gallery from "../../Components/Gallery/index"
+import Gallery from "../Gallery/index"
+import News from "../News/index"
 import NewLetter from "../NewLetter/index"
 import "./HomeCome.css"
 
@@ -19,6 +20,7 @@ function HomeCom() {
 			<Offer />
 			<Garden />
 			<Gallery />
+			<News />
 			<NewLetter />
 		</div>
 	)

@@ -1,0 +1,118 @@
+.news-container {
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+}
+.news-content {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.news-title {
+	width: 500px;
+	height: 387px;
+	position: relative;
+  margin-bottom: 100px;
+}
+.news-title-image img {
+	width: 100%;
+	border-radius: 30px;
+}
+.news-title-date {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 70px;
+	height: 70px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+}
+.news-title-date h2 {
+	color: #274c5b;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.news-title-date p {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.news-title-text {
+	position: absolute;
+	top: 240px;
+	left: 50px;
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.news-title-profile {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+.news-title-profile h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.news-title-name {
+	display: flex;
+	flex-direction: column;
+}
+.news-title-name h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.news-title-name p {
+	color: #525c60;
+	font-family: Open Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 165.4%;
+}
+.news-button {
+	width: 200px;
+	height: 20px;
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	background-color: #fff;
+	position: absolute;
+	left: -19px;
+}
+.news-button:hover {
+	background-color: #fff;
+	color: #274c5b;
+}
