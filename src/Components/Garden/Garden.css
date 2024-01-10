@@ -1,0 +1,68 @@
+.garden-container {
+	width: 1440px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+}
+.garden-image {
+	width: 700px;
+}
+.garden-image img {
+	width: 100%;
+	height: 100%;
+}
+.garden-content {
+	width: 500px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 35px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  left: 650px;
+}
+.garden-name h2 {
+	color: #7eb693;
+	font-family: Yellowtail;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.garden-name p {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.garden-title {
+	width: 400px;
+	height: auto;
+	gap: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.garden-text h2 {
+	color: #274c5b;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.garden-text p {
+	color: #525c60;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 165.4%;
+}

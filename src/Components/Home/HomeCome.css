@@ -1,0 +1,4 @@
+.homeCom {
+  display: flex;
+  flex-direction: column;
+}

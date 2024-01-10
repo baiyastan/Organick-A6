@@ -1,0 +1,43 @@
+.offer-container {
+	width: 1440px;
+	height: 800px;
+	flex-shrink: 0;
+	margin: 0 auto;
+	margin-top: 150px;
+	background-color: #274c5b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.offer-content {
+	width: 1300px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.offer-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.offer-name h2 {
+	color: #7eb693;
+	font-family: Yellowtail;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.offer-name p {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.offer-box {
+	display: flex;
+	gap: 10px;
+}
